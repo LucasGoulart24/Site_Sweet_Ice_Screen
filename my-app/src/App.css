@@ -70,10 +70,55 @@ body{
     font-weight: 400;
 }
 
+/*---Cards---*/
+.Sorvetes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.Card{
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.Card img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.Card h3, p{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.Card button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FF9D9D;
+    transition-duration: 0.5s;
+}
+
+.Card button:hover{
+    background-color: #ff7b7b;
+}
+
 /*---Copyright---*/
 .Copyright{
     width: 100%;
-    height: 10vh;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,4 +128,19 @@ body{
 
 .Copyright h3{
     font-weight: 400;
+}
+
+/*---Responsividade---*/
+@media screen and (max-width: 768px) {
+    .Banner{
+        height: 30vh;
+    }
+
+    .Banner h1{
+        font-size: 4rem;
+    }
+    
+    .Card{
+        width: 90%;
+    }
 }

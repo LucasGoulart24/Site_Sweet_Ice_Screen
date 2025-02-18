@@ -20,7 +20,13 @@ function App() {
           <FaShoppingCart />
         </div>
       </nav>
-      <div className="Banner"></div>
+      <div className="Banner">
+        <h2>Escolha seu sabor</h2>
+        <div className='Escolha'>
+          <input type='text' placeholder='Digite seu sabor de sorvete'></input>
+          <button>Pesquisa</button>
+        </div>
+      </div>
       <div className="Titulo">
         <h2>Nossos Sabores</h2>
       </div>

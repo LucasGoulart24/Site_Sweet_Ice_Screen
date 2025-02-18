@@ -17,7 +17,7 @@ body{
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: "Dancing Script", sans-serif;
     padding: 10px;
 }
@@ -56,16 +56,52 @@ body{
 /*---Banner---*/
 .Banner{
     width: 100%;
-    height: 40vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: "Dancing Script", sans-serif;
+    font-family: "Poppins", sans-serif;
     background-image: url(./Img/banner.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+}
+
+.Banner h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/*---Escolha---*/
+.Escolha{
+    width: 50%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+
+.Escolha input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    color: #000000;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+
+.Escolha button{
+    width: 20%;
+    height: 100%;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #FF9D9D;
 }
 
 /*---Titulo---*/
@@ -163,7 +199,24 @@ body{
 /*---Responsividade---*/
 @media screen and (max-width: 768px) {
     .Banner{
-        height: 30vh;
+        height: 50vh;
+    }
+
+    .Banner h2{
+        font-size: 1.9rem;
+    }
+
+    .Escolha{
+        width: 90%;
+    }
+
+    .Escolha input{
+        font-size: 1.2rem;
+    }
+
+    .Escolha button{
+        width: 30%;
+        font-size: 1.1rem;
     }
 
     .Banner h1{

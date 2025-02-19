@@ -1,5 +1,10 @@
 import logo from './Img/logo.png';
-import sorvete from './Img/sorvete.jpg'
+import sorvete from './Img/sorvete.jpg';
+import sorvete2 from './Img/sorvete2.jpg';
+import sorvete3 from './Img/sorvete3.jpg';
+import sorvete4 from './Img/sorvete4.jpg';
+import sorvete5 from './Img/sorvete5.jpg';
+import sorvete6 from './Img/sorvete6.jpg';
 import './App.css';
 
 // Icones
@@ -33,38 +38,38 @@ function App() {
       <div className="Sorvetes">
         <div className="Card">
           <img src={sorvete} alt="sorvete"></img>
-          <h3>Sorvete Morango</h3>
+          <h3>Morango</h3>
           <p>R$: 09,00</p>
           <button>Comprar</button>
         </div>
         <div className="Card">
-          <img src={sorvete} alt="sorvete"></img>
-          <h3>Sorvete Morango</h3>
+          <img src={sorvete2} alt="sorvete"></img>
+          <h3>Chocolate</h3>
           <p>R$: 09,00</p>
           <button>Comprar</button>
         </div>
         <div className="Card">
-          <img src={sorvete} alt="sorvete"></img>
-          <h3>Sorvete Morango</h3>
-          <p>R$: 09,00</p>
+          <img src={sorvete3} alt="sorvete"></img>
+          <h3>Creme</h3>
+          <p>R$: 07,00</p>
           <button>Comprar</button>
         </div>
         <div className="Card">
-          <img src={sorvete} alt="sorvete"></img>
-          <h3>Sorvete Morango</h3>
-          <p>R$: 09,00</p>
+          <img src={sorvete4} alt="sorvete"></img>
+          <h3>Menta</h3>
+          <p>R$: 08,00</p>
           <button>Comprar</button>
         </div>
         <div className="Card">
-          <img src={sorvete} alt="sorvete"></img>
-          <h3>Sorvete Morango</h3>
-          <p>R$: 09,00</p>
+          <img src={sorvete5} alt="sorvete"></img>
+          <h3>Açai</h3>
+          <p>R$: 05,99</p>
           <button>Comprar</button>
         </div>
         <div className="Card">
-          <img src={sorvete} alt="sorvete"></img>
-          <h3>Sorvete Morango</h3>
-          <p>R$: 09,00</p>
+          <img src={sorvete6} alt="sorvete"></img>
+          <h3>Coco</h3>
+          <p>R$: 08,00</p>
           <button>Comprar</button>
         </div>
       </div>
